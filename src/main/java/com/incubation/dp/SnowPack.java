@@ -25,7 +25,8 @@ package com.incubation.dp;
  *
  */
 public class SnowPack {
-	public static Integer computeSnowpack(Integer[] arr) { 
+	public static Integer computeSnowpack(Integer[] arr) {
+		return null; 
 		
 	}
 }

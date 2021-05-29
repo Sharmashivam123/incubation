@@ -1,7 +1,6 @@
 package com.incubation.strings;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,7 +20,7 @@ String Document – “In publishing and graphic design, lorem ipsum is a
 
 shortestDistance( document, "is", "a" ) == 2.5
 
- * @author Hp
+ * @author 
  *
  */
 
@@ -57,6 +56,6 @@ public class DistanceBetweenTwoString {
 	
 	public static void main(String args[]) {
 		String d = "In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements.";
-		System.out.print(shortestDistance(d, "lorem", "a"));
+		System.out.print(shortestDistance(d, "lorem", "is"));
 	}
 }

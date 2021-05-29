@@ -54,7 +54,7 @@ public class Pascal {
 		result.add(new ArrayList<>(Arrays.asList(1, 1)));
 		
 		for(int i = 2; i<=row; i++) {
-			List<Integer> list = new ArrayList<>();
+			List<Integer> list = new ArrayList();
 			list.add(1);
 			List<Integer> lastList = result.get(i-1);
 			for(int j = 1; j < lastList.size(); j++) {
